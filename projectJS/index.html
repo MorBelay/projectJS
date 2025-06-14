@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mor's Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Mor's Project</h1>
+    <nav>
+      <ul class="nav">
+        <li><a href="policy.docx">Policy</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#" onclick="document.getElementById('popup').style.display='block'">Show Details</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>About the Project</h2>
+      <p>This is the homepage of our website project, created as part of the web development course.</p>
+    </section>
+
+    <section class="creators">
+      <h2>Project Creators</h2>
+      <ul>
+        <li>Mor Belayew</li>
+        <li>Yossi Cohen</li>
+        <li>Noa Levi</li>
+      </ul>
+    </section>
+
+    <section class="contact">
+      <h2>Contact Information</h2>
+      <p>Phone: 054-6343864<br>Email: morbelayev@gmail.com</p>
+    </section>
+  </main>
+
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <span class="close" onclick="document.getElementById('popup').style.display='none'">&times;</span>
+      <h3>Details</h3>
+      <p>This is an example popup for preview purposes only.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>All rights reserved © 2025</p>
+  </footer>
+</body>
+</html>
